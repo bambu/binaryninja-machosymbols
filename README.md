@@ -7,9 +7,11 @@ _Creates symbols and renames functions in mach-o binaries_
 Creates symbols and renames functions in mach-o binaries in order to aid reversing. This is inteded only for x86_64 Mach-O binaries and has not been tested on x86. Also, \"Mach-O Bind Symbols\" requires `dyldinfo`
 
 Before running:
+
 ![Before Image](images/before.png?raw=true "Before running plugins")
 
 After running:
+
 ![After Image](images/after.png?raw=true "After running plugins")
 
 To install this plugin, navigate to your Binary Ninja plugins directory, and run
